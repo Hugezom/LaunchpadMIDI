@@ -365,3 +365,6 @@ class LpMIDI:
     def show_midlist(self):
         for i in range(len(self.midlist)):
             print(i,self.midlist[i])
+            
+if __name__=='__main__':
+    mylp=LpMIDI(46)
